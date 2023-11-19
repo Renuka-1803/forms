@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        text-align: center;
+        background-color:rgba(195, 241, 248, 0.704);
+        margin-right: 200px;
+        margin-left: 200px;
+        border-radius:10px;
+    }
+    h2{
+        text-align: center;
+    }
+    label{
+        display: block;
+    }
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password],
+input[type=date],
+input[type=time],
+input[type=week],
+input[type=radio],
+input[type=month],
+input[type=number],
+input[type=checkbox],
+input[type=file],
+input[type=range],
+input[type=datetime-local],
+input[type=color],
+input[type=image],
+input[type=search],
+input[type=url],
+input[type=button],
+input[type=reset],
+input[type=submit],
+textarea,select{
+    border-radius: 10px ;
+}
+input[type=image]{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+input[type=submit]:hover{
+    background-color: rgba(174, 55, 130, 0.497);
+}
+</style>
+<body>
+            <h2>Registration Form</h2>
+            <form action="https://formspree.io/f/xjvqdaed" method="post">
+    <label>Enter Your Name</label>
+    <input type="text" name="name" required>
+    <label>Enter Your Mobile Number</label>
+    <input type="tel" mobile number="mobile number" required>
+    <label>Enter Your Email Address</label>
+    <input type="email" email="email" required>
+    <label>Enter Your Password</label>
+    <input type="password" password="password" required>
+    <label>Pincode</label>
+    <input type="text" pincode="pincode" required>
+    <label>Enter your Date Of Birth</label>
+    <input type="date" dateofbirth="date" required>
+    <label>Enter Time</label> 
+    <input type="time" time="time" required>
+    <label>Enter Week</label>
+    <input type="week" week="week" required>
+    <label>Education Qualification</label>
+    Graduate
+    <input type="radio" name="educationqualification"value="Graduate" required>
+    Under Graduate
+    <input type="radio" name="educationqualification"value="Under Graduate" required>
+    Post Graduate
+    <input type="radio" name="educationqualification"value="Post Graduate" required>
+    <label>Gender</label>
+    <select>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Others">Others</option>
+    </select>
+    <label>Month and Year Of Passing</label>
+    <input type="month" monthandyearofpassing="month" required>
+    <label>Number Of Arrears</label>
+    <input type="number" numberofarrears="number" required>
+    <label>Major Degree</label>
+    Computer Science Engineering
+    <input type="checkbox" majordegree="Computer Science Engineering">
+    Electronics and Communication Engineering
+    <input type="checkbox" majordegree="Electronics and Communication Engineering">
+    Electrical and Electronics Engineering
+    <input type="checkbox" majordegree="Electrical and Electronics Engineering">
+    <label>Add Resume</label>
+    <input type="file" resume="file" required>
+    <label>About</label>
+    <textarea name="about"></textarea>
+    <label>Technical Skills(between 0 and 100): </label>
+    Python
+    <input type="range" technicalskills="Python" required>
+    Java
+    <input type="range" technicalskills="Java"  required>
+    C++
+    <input type="range" technicalskills="C++" required>
+    <label>Date and Time</label>
+    <input type="datetime-local" date and time="datetime=local" required>
+    <label>Favourite Colour</label>
+    <input type="color" favourite colour="color" required>
+    <label>Image</label>
+    <input type="image" img src="https://www.kindpng.com/picc/m/756-7564789_registration-icon-png-transparent-png.png" required>
+    <label>Google Search</label>
+    <input type="search" googlesearch="search">
+    <label>Add Your Homepage</label>
+    <input type="url" addyourhomepage="url">
+    <label>Click Me</label>
+    <input type="button" onclick="alert('Hello fill the above form!')" value="Click Me!">
+    <label>Reset</label>
+    <input type="reset" reset="reset">
+    <label>Submit</label>
+    <input type="Submit" value="register">
+            </form>
+</body>
+</html>
